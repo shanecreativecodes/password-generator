@@ -1,0 +1,52 @@
+body {
+  font-family: Arial;
+  background: #3d4d72;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.output {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.output input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+}
+
+.output button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.settings {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  background: #00ff5e;
+  border: none;
+  color: black;
+  font-weight: bold;
+}
+
+#strength {
+  margin-top: 10px;
+}
